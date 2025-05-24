@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+TweakOrder: -99
+MixinConfigs: 
+FMLCorePluginContainsFMLMod: true
+FMLAT: 
+tweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+FMLCorePlugin: me.death.bootware.Client
+

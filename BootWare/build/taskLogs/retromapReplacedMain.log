@@ -1,0 +1,18 @@
+Processing 1 files
+Start Processing: me/death/bootware/Client.java
+Rename field net/minecraft/client/Minecraft/player[1555,1561]::player->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[1569,1584]::sendChatMessage->func_71165_d
+Rename field net/minecraft/init/Blocks/DIRT[2210,2214]::DIRT->field_150346_d
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.init.Blocks
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.Mod.EventHandler
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: org.apache.logging.log4j.Logger
+Import: org.lwjgl.util.Display
+Import: java.io.BufferedInputStream
+Import: java.io.IOException
+Import: java.net.Socket
+End  Processing: me/death/bootware/Client.java
+

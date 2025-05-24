@@ -1,0 +1,95 @@
+Unsupposrted library path: C:\Users\zmm11\IdeaProjects\BootWare\build\classes\java\api
+Unsupposrted library path: C:\Users\zmm11\IdeaProjects\BootWare\build\resources\api
+Symbol range map extraction starting
+Processing 1 files
+startProcessing "me/death/bootware/Client.java" md5: 72534e7a9824f0d8c7d4f2731d8b8d86
+@|me/death/bootware/Client.java|47|64|me.death.bootware|package|me.death.bootware|(file)
+Class Start: me.death.bootware.Client
+   @|me/death/bootware/Client.java|549|552|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|me/death/bootware/Client.java|553|558|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|me/death/bootware/Client.java|561|567|Client|class|me.death.bootware.Client|false
+   @|me/death/bootware/Client.java|568|573|MODID|field|me.death.bootware.Client|MODID
+   @|me/death/bootware/Client.java|575|579|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|me/death/bootware/Client.java|582|588|Client|class|me.death.bootware.Client|false
+   @|me/death/bootware/Client.java|589|593|NAME|field|me.death.bootware.Client|NAME
+   @|me/death/bootware/Client.java|595|602|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|me/death/bootware/Client.java|605|611|Client|class|me.death.bootware.Client|false
+   @|me/death/bootware/Client.java|612|619|VERSION|field|me.death.bootware.Client|VERSION
+   @|me/death/bootware/Client.java|635|641|Client|class|me.death.bootware.Client|false
+   @|me/death/bootware/Client.java|670|676|String|class|java.lang.String|false
+   @|me/death/bootware/Client.java|670|676|String|class|java.lang.String|false
+   @|me/death/bootware/Client.java|677|682|MODID|field|me.death.bootware.Client|MODID|
+   @|me/death/bootware/Client.java|720|726|String|class|java.lang.String|false
+   @|me/death/bootware/Client.java|720|726|String|class|java.lang.String|false
+   @|me/death/bootware/Client.java|727|731|NAME|field|me.death.bootware.Client|NAME|
+   @|me/death/bootware/Client.java|769|775|String|class|java.lang.String|false
+   @|me/death/bootware/Client.java|769|775|String|class|java.lang.String|false
+   @|me/death/bootware/Client.java|776|783|VERSION|field|me.death.bootware.Client|VERSION|
+   @|me/death/bootware/Client.java|808|814|Socket|class|java.net.Socket|false
+   @|me/death/bootware/Client.java|808|814|Socket|class|java.net.Socket|false
+   @|me/death/bootware/Client.java|815|821|socket|field|me.death.bootware.Client|socket|
+   @|me/death/bootware/Client.java|835|842|Display|class|org.lwjgl.util.Display|false
+   @|me/death/bootware/Client.java|835|842|Display|class|org.lwjgl.util.Display|false
+   @|me/death/bootware/Client.java|843|852|displayer|field|me.death.bootware.Client|displayer|
+   @|me/death/bootware/Client.java|874|880|Logger|class|org.apache.logging.log4j.Logger|false
+   @|me/death/bootware/Client.java|874|880|Logger|class|org.apache.logging.log4j.Logger|false
+   @|me/death/bootware/Client.java|881|887|logger|field|me.death.bootware.Client|logger|
+   @|me/death/bootware/Client.java|901|920|BufferedInputStream|class|java.io.BufferedInputStream|false
+   @|me/death/bootware/Client.java|901|920|BufferedInputStream|class|java.io.BufferedInputStream|false
+   @|me/death/bootware/Client.java|921|927|buffer|field|me.death.bootware.Client|buffer|
+   @|me/death/bootware/Client.java|941|950|Minecraft|class|net.minecraft.client.Minecraft|false
+   @|me/death/bootware/Client.java|941|950|Minecraft|class|net.minecraft.client.Minecraft|false
+   @|me/death/bootware/Client.java|951|953|mc|field|me.death.bootware.Client|mc|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me/death/bootware/Client.java|1027|1032|event|param|me.death.bootware.Client|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|me/death/bootware/Client.java|963|975|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|me/death/bootware/Client.java|993|1000|preInit|method|me.death.bootware.Client|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me/death/bootware/Client.java|1001|1026|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|me/death/bootware/Client.java|1069|1075|socket|field|me.death.bootware.Client|socket
+      @|me/death/bootware/Client.java|1082|1088|Socket|class|java.net.Socket|false
+      @|me/death/bootware/Client.java|1122|1128|buffer|field|me.death.bootware.Client|buffer
+      @|me/death/bootware/Client.java|1135|1154|BufferedInputStream|class|java.io.BufferedInputStream|false
+      @|me/death/bootware/Client.java|1155|1161|socket|field|me.death.bootware.Client|socket
+      @|me/death/bootware/Client.java|1162|1176|getInputStream|method|java.net.Socket|getInputStream|()Ljava/io/InputStream;
+      @|me/death/bootware/Client.java|1194|1200|Object|class|java.lang.Object|false
+      @|me/death/bootware/Client.java|1215|1221|Object|class|java.lang.Object|false
+      @|me/death/bootware/Client.java|1238|1244|Object|class|java.lang.Object|false
+      @|me/death/bootware/Client.java|1259|1265|Object|class|java.lang.Object|false
+      @|me/death/bootware/Client.java|1305|1324|BufferedInputStream|class|java.io.BufferedInputStream|false
+      @|me/death/bootware/Client.java|1355|1361|buffer|field|me.death.bootware.Client|buffer
+      @|me/death/bootware/Client.java|1362|1366|read|method|java.io.InputStream|read|()I
+      @|me/death/bootware/Client.java|1405|1413|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me/death/bootware/Client.java|1456|1462|socket|field|me.death.bootware.Client|socket
+      @|me/death/bootware/Client.java|1463|1468|close|method|java.lang.AutoCloseable|close|()V
+      @|me/death/bootware/Client.java|1525|1531|String|class|java.lang.String|false
+      @|me/death/bootware/Client.java|1552|1554|mc|field|me.death.bootware.Client|mc
+      @|me/death/bootware/Client.java|1555|1561|player|field|net.minecraft.client.Minecraft|player
+      @|me/death/bootware/Client.java|1562|1577|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|me/death/bootware/Client.java|1600|1608|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me/death/bootware/Client.java|1687|1691|wait|method|java.lang.Object|wait|()V
+      @|me/death/bootware/Client.java|1721|1741|InterruptedException|class|java.lang.InterruptedException|false
+      @|me/death/bootware/Client.java|1770|1783|getSuppressed|method|java.lang.Throwable|getSuppressed|()[Ljava/lang/Throwable;
+      @|me/death/bootware/Client.java|1818|1834|RuntimeException|class|java.lang.RuntimeException|false
+      @|me/death/bootware/Client.java|1893|1904|IOException|class|java.io.IOException|false
+      @|me/death/bootware/Client.java|1925|1938|getSuppressed|method|java.lang.Throwable|getSuppressed|()[Ljava/lang/Throwable;
+      @|me/death/bootware/Client.java|1965|1981|RuntimeException|class|java.lang.RuntimeException|false
+      @|me/death/bootware/Client.java|2006|2015|displayer|field|me.death.bootware.Client|displayer
+      @|me/death/bootware/Client.java|2022|2029|Display|class|org.lwjgl.util.Display|false
+      @|me/death/bootware/Client.java|2042|2048|logger|field|me.death.bootware.Client|logger
+      @|me/death/bootware/Client.java|2051|2056|event|param|me.death.bootware.Client|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|me/death/bootware/Client.java|2057|2066|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me/death/bootware/Client.java|2143|2148|event|param|me.death.bootware.Client|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|me/death/bootware/Client.java|2085|2097|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|me/death/bootware/Client.java|2115|2119|init|method|me.death.bootware.Client|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me/death/bootware/Client.java|2120|2142|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|me/death/bootware/Client.java|2166|2172|logger|field|me.death.bootware.Client|logger
+      @|me/death/bootware/Client.java|2173|2177|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|me/death/bootware/Client.java|2199|2205|Blocks|class|net.minecraft.init.Blocks|false
+      @|me/death/bootware/Client.java|2206|2210|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|me/death/bootware/Client.java|2211|2226|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : me.death.bootware.Client
+endProcessing "me/death/bootware/Client.java"
+

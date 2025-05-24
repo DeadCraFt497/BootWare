@@ -1,0 +1,30 @@
+﻿  bootloader.cpp
+C:\Users\zmm11\source\repos\BootLoader\BootLoader\bootloader.cpp(49,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(16,18): error C3861: 'popen': identifier not found
+C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(17,2): error C2664: 'char *fgets(char *,int,FILE *)': cannot convert argument 1 from 'std::string' to 'char *'
+      C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(17,8):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\stdio.h(198,28):
+      see declaration of 'fgets'
+      C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(17,2):
+      while trying to match the argument list '(std::string, size_t, std::string)'
+  
+C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(18,24): error C2065: 'addr': undeclared identifier
+C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(18,2): error C2664: 'int bind(SOCKET,const sockaddr *,int)': cannot convert argument 1 from 'SOCKET *' to 'SOCKET'
+      C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(18,7):
+      There is no context in which this conversion is possible
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1655,1):
+      see declaration of 'bind'
+      C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(18,2):
+      while trying to match the argument list '(SOCKET *, sockaddr *, size_t)'
+  
+C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(19,2): error C2664: 'int send(SOCKET,const char *,int,int)': cannot convert argument 1 from 'SOCKET *' to 'SOCKET'
+      C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(19,7):
+      There is no context in which this conversion is possible
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2085,1):
+      see declaration of 'send'
+      C:\Users\zmm11\source\repos\BootLoader\BootLoader\main.cpp(19,2):
+      while trying to match the argument list '(SOCKET *, std::string, size_t, int)'
+  
+  Generating Code...
